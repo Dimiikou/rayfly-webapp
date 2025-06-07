@@ -1,54 +1,34 @@
-# React + TypeScript + Vite
+# 🛬 RayFly WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the **RayFly-WebApp** source code, developed for the **Sektor 4.2 RolePlay** project.  
+The solution consists of a single Vite-based React project. All backend operations are handled by the [Celestial Stars Backend](https://github.com/Dimiikou/celestial-stars-backend).
 
-Currently, two official plugins are available:
+## Table of Contents
+1. [Overview](#overview)
+2. [Contributing](#contributing)
+3. [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**RayFly-WebApp** is a React-based frontend application embedded via an iFrame in the Sektor 4.2 RolePlay project.  
+It serves as a booking utility for RayFly services such as sightseeing flights, skydiving, and more.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contributing
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+As this is a roleplay-based project, contributions from outside the roleplay environment are neither required nor desired.  
+Receiving help from out-of-character sources would break immersion.  
+However, if you are an in-game player on Sektor 4.2 and were given access to this repository to contribute—go ahead!
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue on GitHub or contact me directly at **contact@aissa.dev**.
+
+---
+
+✨ *Enjoy working with the project, and thank you for your interest in **RayFly-WebApp**!* ✨
